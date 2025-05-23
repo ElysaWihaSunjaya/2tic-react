@@ -1,0 +1,234 @@
+[
+    {
+      "OrderID": 1,
+      "CustomerID": 1,
+      "CustomerName": "React",
+      "Status": ["Pending"],
+      "TotalPrice": "250.00",
+      "OrderDate": "2025-04-15",
+      "Email": "react@example.com",
+      "Phone": "+123456789",
+      "Loyalty": ["Bronze"]
+    },
+    {
+      "OrderID": 2,
+      "CustomerID": 2,
+      "CustomerName": "Angular",
+      "Status": ["Completed"],
+      "TotalPrice": "350.00",
+      "OrderDate": "2025-04-16",
+      "Email": "angular@example.com",
+      "Phone": "+987654321",
+      "Loyalty": ["Silver"]
+    },
+    {
+      "OrderID": 3,
+      "CustomerID": 3,
+      "CustomerName": "Vue",
+      "Status": ["Cancelled"],
+      "TotalPrice": "150.00",
+      "OrderDate": "2025-04-17",
+      "Email": "vue@example.com",
+      "Phone": "+1122334455",
+      "Loyalty": ["Gold"]
+    },
+    {
+      "OrderID": 4,
+      "CustomerID": 4,
+      "CustomerName": "Svelte",
+      "Status": ["Pending"],
+      "TotalPrice": "200.00",
+      "OrderDate": "2025-04-18",
+      "Email": "svelte@example.com",
+      "Phone": "+5566778899",
+      "Loyalty": ["Silver"]
+    },
+    {
+      "OrderID": 5,
+      "CustomerID": 5,
+      "CustomerName": "Ember",
+      "Status": ["Completed"],
+      "TotalPrice": "450.00",
+      "OrderDate": "2025-04-19",
+      "Email": "ember@example.com",
+      "Phone": "+6677889900",
+      "Loyalty": ["Gold"]
+    },
+    {
+      "OrderID": 6,
+      "CustomerID": 6,
+      "CustomerName": "Backbone",
+      "Status": ["Pending"],
+      "TotalPrice": "100.00",
+      "OrderDate": "2025-04-20",
+      "Email": "backbone@example.com",
+      "Phone": "+2211445566",
+      "Loyalty": ["Bronze"]
+    },
+    {
+      "OrderID": 7,
+      "CustomerID": 7,
+      "CustomerName": "Flutter",
+      "Status": ["Completed"],
+      "TotalPrice": "550.00",
+      "OrderDate": "2025-04-21",
+      "Email": "flutter@example.com",
+      "Phone": "+3344556677",
+      "Loyalty": ["Silver"]
+    },
+    {
+      "OrderID": 8,
+      "CustomerID": 8,
+      "CustomerName": "Swift",
+      "Status": ["Cancelled"],
+      "TotalPrice": "300.00",
+      "OrderDate": "2025-04-22",
+      "Email": "swift@example.com",
+      "Phone": "+4455667788",
+      "Loyalty": ["Gold"]
+    },
+    {
+      "OrderID": 9,
+      "CustomerID": 9,
+      "CustomerName": "Django",
+      "Status": ["Pending"],
+      "TotalPrice": "400.00",
+      "OrderDate": "2025-04-23",
+      "Email": "django@example.com",
+      "Phone": "+5566778899",
+      "Loyalty": ["Bronze"]
+    },
+    {
+      "OrderID": 10,
+      "CustomerID": 10,
+      "CustomerName": "Flask",
+      "Status": ["Completed"],
+      "TotalPrice": "600.00",
+      "OrderDate": "2025-04-24",
+      "Email": "flask@example.com",
+      "Phone": "+6677889900",
+      "Loyalty": ["Silver"]
+    },
+    {
+      "OrderID": 11,
+      "CustomerID": 11,
+      "CustomerName": "Ruby on Rails",
+      "Status": ["Cancelled"],
+      "TotalPrice": "700.00",
+      "OrderDate": "2025-04-25",
+      "Email": "rails@example.com",
+      "Phone": "+7788990011",
+      "Loyalty": ["Gold"]
+    },
+    {
+      "OrderID": 12,
+      "CustomerID": 12,
+      "CustomerName": "Kotlin",
+      "Status": ["Pending"],
+      "TotalPrice": "450.00",
+      "OrderDate": "2025-04-26",
+      "Email": "kotlin@example.com",
+      "Phone": "+8899001122",
+      "Loyalty": ["Bronze"]
+    },
+    {
+      "OrderID": 13,
+      "CustomerID": 13,
+      "CustomerName": "Go",
+      "Status": ["Completed"],
+      "TotalPrice": "250.00",
+      "OrderDate": "2025-04-27",
+      "Email": "go@example.com",
+      "Phone": "+9900112233",
+      "Loyalty": ["Silver"]
+    },
+    {
+      "OrderID": 14,
+      "CustomerID": 14,
+      "CustomerName": "Java",
+      "Status": ["Cancelled"],
+      "TotalPrice": "850.00",
+      "OrderDate": "2025-04-28",
+      "Email": "java@example.com",
+      "Phone": "+2233445566",
+      "Loyalty": ["Gold"]
+    },
+    {
+      "OrderID": 15,
+      "CustomerID": 15,
+      "CustomerName": "C#",
+      "Status": ["Pending"],
+      "TotalPrice": "950.00",
+      "OrderDate": "2025-04-29",
+      "Email": "csharp@example.com",
+      "Phone": "+3344556677",
+      "Loyalty": ["Bronze"]
+    },
+    {
+      "OrderID": 16,
+      "CustomerID": 16,
+      "CustomerName": "Python",
+      "Status": ["Completed"],
+      "TotalPrice": "1000.00",
+      "OrderDate": "2025-04-30",
+      "Email": "python@example.com",
+      "Phone": "+4455667788",
+      "Loyalty": ["Silver"]
+    },
+    {
+      "OrderID": 17,
+      "CustomerID": 17,
+      "CustomerName": "JavaScript",
+      "Status": ["Cancelled"],
+      "TotalPrice": "1100.00",
+      "OrderDate": "2025-05-01",
+      "Email": "javascript@example.com",
+      "Phone": "+5566778899",
+      "Loyalty": ["Gold"]
+    },
+    {
+      "OrderID": 18,
+      "CustomerID": 18,
+      "CustomerName": "Node.js",
+      "Status": ["Pending"],
+      "TotalPrice": "1200.00",
+      "OrderDate": "2025-05-02",
+      "Email": "nodejs@example.com",
+      "Phone": "+6677889900",
+      "Loyalty": ["Bronze"]
+    },
+    {
+      "OrderID": 19,
+      "CustomerID": 19,
+      "CustomerName": "R",
+      "Status": ["Completed"],
+      "TotalPrice": "1300.00",
+      "OrderDate": "2025-05-03",
+      "Email": "r@example.com",
+      "Phone": "+7788990011",
+      "Loyalty": ["Silver"]
+    },
+    {
+      "OrderID": 20,
+      "CustomerID": 20,
+      "CustomerName": "PHP",
+      "Status": ["Cancelled"],
+      "TotalPrice": "1400.00",
+      "OrderDate": "2025-05-04",
+      "Email": "php@example.com",
+      "Phone": "+8899001122",
+      "Loyalty": ["Gold"]
+    },
+    {
+      "OrderID": 21,
+      "CustomerID": 21,
+      "CustomerName": "SwiftUI",
+      "Status": ["Pending"],
+      "TotalPrice": "1500.00",
+      "OrderDate": "2025-05-05",
+      "Email": "swiftui@example.com",
+      "Phone": "+9900112233",
+      "Loyalty": ["Bronze"]
+    }
+  ]
+  

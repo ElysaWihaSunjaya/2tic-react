@@ -1,0 +1,50 @@
+{
+  "filters": [
+    { "label": "All", "value": "all" },
+    { "label": "Dairy", "value": "dairy" },
+    { "label": "Pantry", "value": "pantry" },
+    { "label": "Meat", "value": "meat" },
+    { "label": "Fruits", "value": "fruits" },
+    { "label": "Vegetables", "value": "veg" }
+  ],
+  "products": [
+    {
+      "name": "Susu",
+      "price": "$1.00",
+      "image": "img/susu.png",
+      "category": "dairy",
+      "sale": true
+    },
+    {
+      "name": "Biskuit",
+      "price": "$9.00",
+      "image": "img/biskuit.png",
+      "category": "pantry"
+    },
+    {
+      "name": "Daging",
+      "price": "$3.00",
+      "image": "img/daging.png",
+      "category": "meat"
+    },
+    {
+      "name": "Keju",
+      "price": "$1.00",
+      "image": "img/keju.png",
+      "category": "dairy"
+    },
+    {
+      "name": "Apel",
+      "price": "$2.00",
+      "image": "img/apel.png",
+      "category": "fruits"
+    },
+    {
+      "name": "Brokoli",
+      "price": "$2.00",
+      "image": "img/brokoli.png",
+      "category": "veg",
+      "sale": true
+    }
+  ]
+}

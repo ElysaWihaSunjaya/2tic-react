@@ -1,0 +1,7 @@
+[
+  { "member_id": 1, "nama": "Alya", "email": "alya@example.com", "tipe_member": "silver" },
+  { "member_id": 2, "nama": "Budi", "email": "budi@example.com", "tipe_member": "gold" },
+  { "member_id": 3, "nama": "Citra", "email": "citra@example.com", "tipe_member": "platinum" },
+  { "member_id": 4, "nama": "Dian", "email": "dian@example.com", "tipe_member": "silver" },
+  { "member_id": 5, "nama": "Eko", "email": "eko@example.com", "tipe_member": "gold" }
+]
