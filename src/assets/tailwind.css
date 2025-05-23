@@ -1,4 +1,7 @@
-@import "tailwindcss";
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+
 
 @font-face {
     font-family: "Barlow";
@@ -17,11 +20,11 @@
     src: url('/fonts/Rubik-VariableFont_wght.ttf');
 }
 
-@theme{
+:root {
     --font-barlow: "Barlow", sans-serif;
     --font-poppins: "Poppins", sans-serif;
     --font-poppins-extrabold: "Poppins-ExtraBold", sans-serif;
-    --font-rubik-variableFont_wght: "Rubik", sans-serif;
+    --font-rubik-variableFont_wght: "Rubik-VariableFont_wght", sans-serif;
 
     --color-latar: #f3f4f6;
     --color-teks: #374151; 
@@ -34,5 +37,5 @@
 }
 
 body {
-    @apply font-rubik-variableFont_wght;
+    font-family: var(--font-rubik-variableFont_wght);
 }
