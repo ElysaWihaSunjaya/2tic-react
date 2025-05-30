@@ -47,7 +47,7 @@ export default function Products() {
                 <thead>
                     <tr className="bg-emerald-600 text-white text-left text-sm font-semibold">
                         <th className="px-4 py-3">#</th>
-                        <th className="px-4 py-3">Name</th>
+                        <th className="px-4 py-3">Nama</th>
                         <th className="px-4 py-3">Category</th>
                         <th className="px-4 py-3">Price</th>
                         <th className="px-4 py-3">Vendor</th>
