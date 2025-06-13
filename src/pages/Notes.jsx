@@ -1,3 +1,4 @@
+import { AiFillEdit } from "react-icons/ai"; 
 import { notesAPI } from "../Services/notesAPI";
 import { useState } from "react";
 import AlertBox from "../components/AlertBox";
@@ -162,7 +163,6 @@ export default function Notes(){
                         focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed
                         transition-all duration-200 shadow-lg"
                 >
-                    Tambah Catatan
                     {loading ? "Mohon Tunggu..." : "Tambah Data"}
                 </button>
             </form>
@@ -205,9 +205,9 @@ export default function Notes(){
                             {note.content}
                         </div>
                     </td>
-                    <td className="px-6 py-4 flex gap-2">
+                    <td className="px-6 py-4 max-w-xs">
                         <button onClick={() => handleEdit(note)} disabled={loading}>
-                            <span className="text-blue-500 hover:text-blue-700">Edit</span>
+                            <AiFillEdit className="text-blue-400 text-2xl hover:text-blue-600 transition-colors"/>
                         </button>
                     </td>
                     <td className="px-6 py-4 max-w-xs">
