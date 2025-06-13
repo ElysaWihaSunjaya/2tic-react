@@ -1,3 +1,4 @@
+import { CgNotes } from "react-icons/cg"; 
 import { IoFastFoodOutline } from "react-icons/io5"; 
 import { RiFileUserFill } from "react-icons/ri"; 
 import { BiError } from "react-icons/bi"; 
@@ -55,6 +56,10 @@ export default function ListMenu() {
                                 Products
                         </NavLink>
                         </li>
+                        <li>
+                        <NavLink id="menu-5" to="/Notes" className={menuClass}>
+                            <CgNotes className="mr-4 text-xl"/>Notes</NavLink>
+                      </li>
                 </ul>
             </div>
     );

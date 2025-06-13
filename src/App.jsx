@@ -31,6 +31,7 @@ const Forgot = React.lazy(() => import("./pages/auth/Forgot"))
 const CekAnggota = React.lazy(() => import("./form/cekAnggota"))
 const Products = React.lazy(() => import("./pages/Products"))
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
+const Notes = React.lazy(() => import("./pages/Notes"))
 
 function App() {
 
@@ -48,7 +49,8 @@ function App() {
           <Route path="/401" element={<NotFound code="401"/>} />
           <Route path="/403" element={<NotFound code="403"/>} />
           <Route path="products" element={<Products />} />
-          <Route path="/products/:id" element={<ProductDetail />} /> 
+          <Route path="/products/:id" element={<ProductDetail />} />
+          <Route path="/Notes" element={<Notes />} /> 
         </Route>
 
         <Route element={<AuthLayout/>}>
